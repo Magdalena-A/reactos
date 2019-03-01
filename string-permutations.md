@@ -16,13 +16,6 @@ stringPermutations('nn'); //should return  [ 'nn' ]
 
 ---
 
-# Resources
-
-- [Slides](http://slides.com/seemaullal/reacto#/)
-- [REPL walkthrough](https://repl.it/lFv/49)
-
----
-
 # Time and splace complexity
 
 In general we're pretty stuck with `O(n!)` (factorial) time and space complexity (where `n` is the number of unique characters in the string). Frankly, the end result of the algorithm demands it, because for `n` possible characters, it turns out there are `n!` permutations of those characters.
