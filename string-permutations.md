@@ -45,19 +45,22 @@ E.g.
 ```javascript
 stringPermutations('one')
 // should return  [ 'eno', 'eon' 'neo', 'noe', 'oen', 'one']
-```
-<!-- 
+
+/*
 Start with 'o':
 
                 'o'
 Add 'n':
+
          /              \
       'no'              'on'
 
 Add: 'e':
 
     /  |  \            /  |  \
-'eno''neo' 'noe'  'eon' 'oen' 'one' -->
+'eno''neo' 'noe'  'eon' 'oen' 'one'
+
+*/
 ```
 
 --- 
