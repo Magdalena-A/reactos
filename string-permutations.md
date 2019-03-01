@@ -46,8 +46,7 @@ E.g.
 stringPermutations('one')
 // should return  [ 'eno', 'eon' 'neo', 'noe', 'oen', 'one']
 ```
-
-
+<!-- 
 Start with 'o':
 
                 'o'
@@ -58,8 +57,8 @@ Add 'n':
 Add: 'e':
 
     /  |  \            /  |  \
-'eno''neo' 'noe'  'eon' 'oen' 'one'
-
+'eno''neo' 'noe'  'eon' 'oen' 'one' -->
+```
 
 --- 
 
